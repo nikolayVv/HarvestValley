@@ -10,4 +10,4 @@ For the full game in Unity contact the authors.
 
 * Nikolay Vasilev
 * Sebastjan Kramar (sk9796)
-* Luka Zornada (lzor66)# Harvest-Valley
+* Luka Zornada (lzor66)
