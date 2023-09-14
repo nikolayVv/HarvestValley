@@ -1,0 +1,4591 @@
+{
+    "nodes": [
+        {
+            "type": "camera",
+            "name": "cam",
+            "translation": [ 3, 0.585, 0 ],
+            "aabb": {
+                "min": [ -0.2, -0.2, -0.2 ],
+                "max": [ 0.2, 0.2, 0.2 ]
+            },
+            "aspect": 1,
+            "fov": 1.5,
+            "near": 0.037,
+            "far": 100
+        },
+
+        {
+            "type": "light",
+            "ambientColor": [ 255, 255, 255 ],
+            "diffuseColor": [ 51, 51, 51 ],
+            "specularColor": [ 255, 255, 255 ],
+            "shininess": 10,
+            "lightPosition": [ -20, 500, -20 ],
+            "attenuatuion": [ 1, 0, 0.001 ]
+        },
+
+        {
+            "type": "model",
+            "mesh": 5,
+            "texture": 12,
+            "name": "farmer",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 2.85, 0.09, 0 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.05, 0.05, 0.05 ]
+        },
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -22 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -20 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -18 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -16 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -14 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, -2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, 0 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, 2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, 4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -9, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -22 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -20 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -18 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -16 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -14 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, -2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, 0 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, 2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, 4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -7, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -22 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -20 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -18 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -16 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -14 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -12 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -6 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, -2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, 0 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, 2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, 4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -5, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -22 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -18 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -14 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -12 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, -2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, 4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -3, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -22 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -18 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -14 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -12 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, -2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, 4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -22 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -18 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -14 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -12 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, -2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, 0 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, 2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, 4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 1, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -22 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -18 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -14 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -12 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 3, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -22 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -18 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -14 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -12 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -10 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 5, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -24 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -22 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -20 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -18 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -16 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -14 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -12 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -10 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -8 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 7, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -22 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -20 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -18 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -16 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -14 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, -2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, 0 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, 2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, 4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 9, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -28 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -26 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -24 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -22 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -20 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -18 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -16 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -14 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -8 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, -2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, 0 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, 2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, 4 ],
+            "rotation": [ 0, -1.570796330, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 11, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 4,
+            "name": "cornerPathInside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, -2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, 0 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, 2 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, 4 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 13, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 6,
+            "name": "dirtUnlocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -6 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, -2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, 2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 15, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 17, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -6 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, -2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, 2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 19, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 21, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -6 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, -2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 1,
+            "name": "path",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 5,
+            "name": "dirtLocked",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, 2 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 23, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -8 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -4 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, -2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, 0 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 2,
+            "name": "pathSide",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, 2 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 3,
+            "name": "cornerPathOutside",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, 4 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 25, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, -2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, 0 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, 2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, 4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 27, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -12 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -10 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, -2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, 0 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, 2 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, 4 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, 6 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+        {
+            "type": "model",
+            "mesh": 0,
+            "texture": 0,
+            "name": "water",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 29, 0, 8 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 1, 0.1, 1 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 9,
+            "name": "treeUnlocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 5, 0, -14 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ -3, 0, -22 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ -3, 0, -18 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ -3, 0, -14 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 1, 0, -22 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 1, 0, -18 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 1, 0, -14 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 5, 0, -22 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+        {
+            "type": "model",
+            "mesh": 3,
+            "texture": 10,
+            "name": "treeLocked",
+            "aabb": {
+                "min": [ -0.05, 0, -0.05 ],
+                "max": [ 0.05, 1, 0.05 ]
+            },
+            "translation": [ 5, 0, -18 ],
+            "rotation": [ 0, 3.14159265, 0 ],
+            "scale": [ 0.6, 0.5, 0.6 ]
+        },
+
+
+        {
+
+            "type": "model",
+            "mesh": 1,
+            "texture": 7,
+            "name": "house",
+            "aabb": {
+                "min": [ -1.65, -1, -2.35 ],
+                "max": [ 1.65, 1, 2.35 ]
+            },
+            "translation": [ 5, 0, 1 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 0.3, 0.3, 0.45 ]
+        },
+        {
+
+            "type": "model",
+            "mesh": 2,
+            "texture": 8,
+            "name": "car",
+            "aabb": {
+                "min": [ -0.35, -1, -0.8 ],
+                "max": [ 0.35, 1, 0.8 ]
+            },
+            "translation": [ 2.8, 0.1, -2.5 ],
+            "rotation": [ 0, 1.57079633, 0 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        {
+            "type": "model",
+            "mesh": 4,
+            "texture": 11,
+            "name": "chest",
+            "aabb": {
+                "min": [ -0.25, -1, -0.05 ],
+                "max": [ 0.25, 1, 0.05 ]
+            },
+            "translation": [ 2.85, 0.1, -1 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 1.2, 1.2, 1.2 ]
+        },
+
+        {
+            "type": "model",
+            "mesh": 6,
+            "texture": 13,
+            "name": "shop",
+            "aabb": {
+                "min": [ -2.1, -0.1, -1 ],
+                "max": [ -1.1, 0.1, 1 ]
+            },
+            "translation": [ -1, 0.15, -4.7 ],
+            "rotation": [ 0, -1.57079633, 0 ],
+            "scale": [ 0.5, 0.4, 0.5 ]
+        },
+        {
+            "type": "model",
+            "mesh": 7,
+            "texture": 14,
+            "name": "cart",
+            "aabb": {
+                "min": [ -0.23, -0.1, -0.411 ],
+                "max": [ 0.6, 0.1, 0.371 ]
+            },
+            "translation": [ -4, 0.1, -6.8 ],
+            "rotation": [ 0, 2.1, 0 ],
+            "scale": [ 0.4, 0.35, 0.4 ]
+        },
+        {
+            "type": "model",
+            "mesh": 8,
+            "texture": 15,
+            "name": "seller",
+            "aabb": {
+                "min": [ -0, -0.1, -0 ],
+                "max": [ 0, 0.1, 0 ]
+            },
+            "translation": [ -3.4, 0.2, -5.1 ],
+            "rotation": [ 0, 2, 0 ],
+            "scale": [ 6, 5, 6 ]
+        },
+
+
+        {
+            "type": "model",
+            "mesh": 17,
+            "texture": 24,
+            "name": "sun",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 55.3, 62, -27.6 ],
+            "rotation": [ 0, 0, 2.5 ],
+            "scale": [ 0.11, 0.11, 0.11 ]
+        },
+        {
+            "type": "model",
+            "mesh": 18,
+            "texture": 25,
+            "name": "cloud",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ 43.3, 62, 80.6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 0.15, 0.11, 0.11 ]
+        },
+        {
+            "type": "model",
+            "mesh": 18,
+            "texture": 25,
+            "name": "cloud",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -22.3, 48, -70.6 ],
+            "rotation": [ 0, 0, 0 ],
+            "scale": [ 0.09, 0.07, 0.09 ]
+        },
+        {
+            "type": "model",
+            "mesh": 18,
+            "texture": 25,
+            "name": "cloud",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -66.3, 22, 43.6 ],
+            "rotation": [ 0, 3, 0 ],
+            "scale": [ 0.05, 0.07, 0.05 ]
+        },
+        {
+            "type": "model",
+            "mesh": 19,
+            "texture": 26,
+            "name": "moon",
+            "aabb": {
+                "min": [ -1, -0.1, -1 ],
+                "max": [ 1, 0.1, 1 ]
+            },
+            "translation": [ -66.3, 77, -20 ],
+            "rotation": [ 0, 1, 2 ],
+            "scale": [ 0.15, 0.15, 0.15 ]
+        },
+        {
+            "type": "model",
+            "name": "door",
+            "aabb": {
+                "min": [ -0, -0, -0 ],
+                "max": [ 0, 0, 0 ]
+            },
+            "translation": [ 6.063366437843787, 0.5, -1.350000118454387 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "wall",
+            "aabb": {
+                "min": [ -0.35, -0.5, -0.05 ],
+                "max": [ 0.35, 0.5, 0.05 ]
+            },
+            "translation": [ 2.649880323664764, 0.5, -1.2678272604828456 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "wall",
+            "aabb": {
+                "min": [ -0.05, -0.5, -0.45 ],
+                "max": [ 0.05, 0.5, 0.45 ]
+            },
+            "translation": [ 2.349880323664764, 0.5, -0.4678272604828456 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+
+
+        {
+            "type": "model",
+            "name": "wall",
+            "aabb": {
+                "min": [ -0.035, -0.5, -1.15 ],
+                "max": [ 0.035, 0.5, 1.15 ]
+            },
+            "translation": [ 2.319880323664764, 0.5, 2.1678272604828456 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+
+        {
+            "type": "model",
+            "name": "wall",
+            "aabb": {
+                "min": [ -0.425, -0.5, -0.035 ],
+                "max": [ 0.425, 0.5, 0.035 ]
+            },
+            "translation": [ 2.7280323664764, 0.5, 3.3378272604828456 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ 0, -0.5, 0 ],
+                "max": [ 9.8, 0.5, 1.94 ]
+            },
+            "translation": [ -5.894593982770801, 0.5, -10.942884687843199 ],
+            "rotation": [ 0, -1.57079633, 0 ]
+        },
+
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ 0.3, -0.5, 0 ],
+                "max": [ 0.3, 0.5, 37 ]
+            },
+            "translation": [ -6.355408887747786, 0.5, -28.901428006553576 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -14, -0.5, -0.1 ],
+                "max": [ 0, 0.5, 0.1 ]
+            },
+            "translation": [ 8.16017708498103, 0.5300000309944153, -25.055779975075456 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ 0.3, -0.5, 0 ],
+                "max": [ 0.3, 0.5, 18 ]
+            },
+            "translation": [ 7.91942994083606, 0.5300000309944153, -25.09201927773869 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -1.55, -0.5, -0.95 ],
+                "max": [ 1.55, 0.5, 0.75 ]
+            },
+            "translation": [ 10.079249118789349, 0.5, -7.76369584449628 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -9, -0.5, -1.9 ],
+                "max": [ 9, 0.5, 1.9 ]
+            },
+            "translation": [ 20.879249118789349, 0.5, -10.76369584449628 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -1.85, -0.5, -9.65 ],
+                "max": [ 1.85, 0.5, 9.65 ]
+            },
+            "translation": [ 27.879249118789349, 0.5, 0.36369584449628 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -16.76205, -0.5, -1.867 ],
+                "max": [ 16.76205, 0.5, 1.867 ]
+            },
+            "translation": [ 9.06715, 0.5, 6.93369584449628 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -2.03881, -0.5, -3.867 ],
+                "max": [ 2.03881, 0.5, 3.867 ]
+            },
+            "translation": [ 9.95219, 0.5, 1.0003 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -2.9021, -0.5, -2.937 ],
+                "max": [ 2.9021, 0.5, 2.937 ]
+            },
+            "translation": [ -2.94719, 0.5, 1.9304 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "border",
+            "aabb": {
+                "min": [ -0.890576555, -0.5, -0.9630503 ],
+                "max": [ 0.890576555, 0.5, 0.9630503 ]
+            },
+            "translation": [ -4.9648319, 0.5, -2.012731123 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+            "type": "model",
+            "name": "shop_border",
+            "aabb": {
+                "min": [ -0.50576555, -0.5, -0.8336299685 ],
+                "max": [ 0.45576555, 0.5, 0.8336299685 ]
+            },
+            "translation": [ -3.6824743, 0.5, -5.1659253315 ],
+            "rotation": [ 0, 0, 0 ]
+        },
+        {
+
+            "type": "model",
+            "name": "cart_border",
+            "aabb": {
+                "min": [ -0.5173546215, -0.5, -0.348459913 ],
+                "max": [ 0.5173546215, 0.5, 0.348459913 ]
+            },
+            "translation": [ -3.8775797265, 0.5, -6.858323574 ],
+            "rotation": [ 0, 0, 0 ]
+        }
+    ],
+  "textures": [
+    "./images/water.png",
+    "./images/path.png",
+    "./images/pathSide.png",
+    "./images/cornerPathOutside.png",
+    "./images/cornerPathInside.png",
+    "./images/dirtLocked.png",
+    "./images/dirtUnlocked.png",
+    "./images/house.png",
+    "./images/car.png",
+    "./images/treeUnlocked.png",
+    "./images/treeLocked.png",
+    "./images/chest.png",
+    "./images/farmer.jpg",
+    "./images/shop.png",
+    "./images/cart.png",
+    "./images/seller.png",
+    "./images/carrot.png",
+    "./images/eggplant.png",
+    "./images/cucumber.png",
+    "./images/tomato.png",
+    "./images/cherry.png",
+    "./images/apple.png",
+    "./images/lemon.jpg",
+    "./images/banana.png",
+    "./images/sun.png",
+    "./images/cloud.png",
+    "./images/moon.png"
+  ],
+  "meshes": [
+    "./models/cube.json",
+    "./models/house.json",
+    "./models/car.json",
+    "./models/tree.json",
+    "./models/chest.json",
+    "./models/farmer.json",
+    "./models/shop.json",
+    "./models/cart.json",
+    "./models/seller.json",
+    "./models/carrot.json",
+    "./models/eggplant.json",
+    "./models/cucumber.json",
+    "./models/tomato.json",
+    "./models/cherry.json",
+    "./models/apple.json",
+    "./models/lemon.json",
+    "./models/banana.json",
+    "./models/sun.json",
+    "./models/cloud.json",
+    "./models/moon.json"
+  ]
+}

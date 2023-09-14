@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Harvest Valley</title>
+    <script type="text/javascript" src="./lib/gl-matrix-min.js"></script>
+    <script type="text/javascript" src="./lib/dat.gui.min.js"></script>
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+<audio id="audioGame" src="./sounds/gameBackground.mp3" loop></audio>
+<audio id="audioPause" src="./sounds/menuBackground.mp3" loop></audio>
+<div class="fullscreen">
+    <canvas></canvas>
+    <div class="pause" id="pause">
+        <div class="text" id="text">PAUSED</div>
+        <button class="controls" id="controls">CONTROLS</button>
+        <button class="volume" id="volume">VOLUME</button>
+        <button class="resume" id="resume">RESUME</button>
+    </div>
+    <div class="controlsBox" id="controlsBox">
+        <div class="text">
+            W,A,S,D - PLAYER MOVEMENT<br>
+            P - PAUSE<br>
+            SPACE - INTERACT<br>
+            MOUSE - CAMERA MOVEMENT<br>
+            1,2,3,4,5,6,7,8,9,0,- - BAR SELECT<br>
+        </div>
+        <button class="back1" id="back1">BACK</button>
+    </div>
+    <div class="volumeBox" id="volumeBox">
+        <div class="text">VOLUME</div>
+        <input type="range" min="0" max="100" value="50" class="volumeSlider" id="volumeSlider">
+        <button class="back2" id="back2">CONFIRM</button>
+    </div>
+    <div class="hud">
+        <div class="day" id="day">MON</div>
+        <div class="time" id="time">00:00</div>
+        <div class="money" id="money">0 &euro;</div>
+        <div class="hud-border" id="hud-border">
+            <div class="item" id="item0"></div>
+            <div class="item" id="item1"></div>
+            <div class="item" id="item2"></div>
+            <div class="item" id="item3"></div>
+            <div class="item" id="item4"></div>
+            <div class="item" id="item5"></div>
+            <div class="item" id="item6"></div>
+            <div class="item" id="item7"></div>
+            <div class="item" id="item8"></div>
+            <div class="item" id="item9"></div>
+            <div class="item" id="item10"></div>
+        </div>
+    </div>
+    <div class="chestHUD" id="chestHUD">
+        <div class="chestItem" id="chestItem0"></div>
+        <div class="chestItem" id="chestItem1"></div>
+        <div class="chestItem" id="chestItem2"></div>
+        <div class="chestItem" id="chestItem3"></div>
+        <div class="chestItem" id="chestItem4"></div>
+        <div class="chestItem" id="chestItem5"></div>
+        <div class="chestItem" id="chestItem6"></div>
+        <div class="chestItem" id="chestItem7"></div>
+        <div class="chestItem" id="chestItem8"></div>
+        <div class="chestItem" id="chestItem9"></div>
+        <div class="chestItem" id="chestItem10"></div>
+        <div class="chestItem" id="chestItem11"></div>
+        <div class="chestItem" id="chestItem12"></div>
+        <div class="chestItem" id="chestItem13"></div>
+        <div class="chestItem" id="chestItem14"></div>
+        <div class="chestItem" id="chestItem15"></div>
+    </div>
+    <div class="chestHUD" id="shopHUD">
+        <div class="chestItem" id="appleSeeds"><img src=./icons/appleSeeds.png class=storageIcon> </div>
+        <div class="chestItem" id="tomatoSeeds"><img src=./icons/tomatoSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="bananaSeeds"><img src=./icons/bananaSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="cucumberSeeds"><img src=./icons/cucumberSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="lemonSeeds"><img src=./icons/lemonSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="carrotSeeds"><img src=./icons/carrotSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="cherrySeeds"><img src=./icons/cherrySeeds.png class=storageIcon></div>
+        <div class="chestItem" id="eggplantSeeds"><img src=./icons/eggplantSeeds.png class=storageIcon></div>
+        <div class="chestItem" id="chestItem8"></div>
+        <div class="chestItem" id="chestItem9"></div>
+        <div class="chestItem" id="chestItem10"></div>
+        <div class="chestItem" id="chestItem11"></div>
+        <div class="chestItem" id="chestItem12"></div>
+        <div class="chestItem" id="chestItem13"></div>
+        <div class="chestItem" id="chestItem14"></div>
+        <div id="info"> hello </div>
+    </div>
+    <h1 id="popUp"></h1>
+    <div class="actionHUD" id="action">
+        <h1 id="actionMessage"></h1>
+    </div>
+    <div class="timerHUD">
+        <h1 id="timer"></h1>
+    </div>
+</div>
+<div id="itemsPlaceholder" style="display: none"></div>
+</body>
+</html>
